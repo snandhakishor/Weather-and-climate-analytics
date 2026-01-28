@@ -7,9 +7,9 @@ This project analyzes historical weather data retrieved from a public REST API t
 The data was pulled from open-meteo.com (https://open-meteo.com), a free data source using GET request. The data pulled was in JSON format. 
 
 ## Construction of API url
-The API url was constructed using the base url - https://archive-api.open-meteo.com and adding path and parameters as listed in the document - https://open-meteo.com/en/docs
-Path - "v1/archive"
-Parameters - latitude, longititude, start date, end date, max temperature, min temperature, precipitation amount and wind speed
+- The API url was constructed using the base url - https://archive-api.open-meteo.com and adding path and parameters as listed in the document - https://open-meteo.com/en/docs
+- Path - "v1/archive"
+- Parameters - latitude, longititude, start date, end date, max temperature, min temperature, precipitation amount and wind speed
 
 ## Data cleaning and parsing
 - Parsing and cleaning of JSON data and its conversion to dataframe was done using Pandas.
